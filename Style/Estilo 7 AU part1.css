@@ -1,0 +1,11 @@
+h1 {
+    color: darkblue;
+    font-size: 35px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: honeydew;
+    padding: 15px;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+}
