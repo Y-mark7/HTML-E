@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+        <p>Criando formulários</p>
+    </header>
+
+    <section>
+        <h2>Preencha o formulário abaixo:</h2>
+        <form name="form1" method="post" action="grava.php">
+            <label for="txtnome">Nome:</label>
+            <input type="text" id="txtnome" name="txtnome" maxlength="50"/><br/>
+            <label for="txtnumero">Número:</label>
+            <input type="number" id="txtnumero" name="txtnumero"/><br/>
+            <label for="txtsenha">Senha:</label>
+            <input type="password" id="txtsenha" name="txtsenha"/><br/>
+            Mensagem:<br/>
+            <textarea name="mensagem" cols="40" rows="7" maxlength="1000"></textarea><br/>
+            Estado:
+            <select name="estado">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SC">Santa Catarina</option>
+            </select><br/>
+            Pagamento:
+            <input type="radio" name="pagamento" value="vista"/>À vista
+            <input type="radio" name="pagamento" value="debito"/>Debito
+            <input type="radio" name="pagamento" value="credito"/>Crédito
+            <input type="radio" name="pagamento" value="boleto"/>Boleto
+            <input type="radio" name="pagamento" value="pix"/>Pix<br/>
+            Lugares para conhecer:
+            <input type="checkbox" name="lugar" value="franca"/>França
+            <input type="checkbox" name="lugar" value="canada"/>Canadá
+            <input type="checkbox" name="lugar" value="italia"/>Itália
+            <input type="checkbox" name="lugar" value="japao"/>Japão<br/>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </section>
+</body>
+</html>
