@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background-color: lightgray;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#cabecalho h1 {
+    color: firebrick;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin-top: 75px;
+}
+
+#menu {
+    background-color: gray;
+    width: 200px;
+    padding: 15px;
+}
+
+#conteudo {
+    padding: 15px;
+    background-color: lightblue;
+}
+
+#rodape {
+    background-color: lightgray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#rodape p {
+    color: firebrick;
+    text-align: center;
+}
