@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+#menu {
+    background-color: black;
+    padding-left: 20px;
+}
+
+#menu ul li {
+    display: inline;
+    position: relative;
+}
+
+#menu ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    background-color: gray;
+    box-shadow: 0 0 10px red;
+}
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    padding: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+#menu ul ul li {
+    display: block;
+    width: 100%;
+}
+
+#menu ul ul li a {
+    padding: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+#menu ul ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+.teste {
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 20px;
+}
